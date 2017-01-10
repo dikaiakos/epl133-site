@@ -1,0 +1,132 @@
+  <!DOCTYPE html>
+  <html lang="">
+      <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>EPL133: Αντικειμενοστρεφής Προγραμματισμός</title>
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="epl425.css">
+          <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+          <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->
+          <style>
+          .jumbotron{
+          background-color:white;
+          color:black;
+          }
+          /* Adds borders for tabs */
+          .tab-content {
+          border-left: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+          padding: 10px;
+          }
+          .nav-tabs {
+          margin-bottom: 0;
+          }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="hidden-print">
+                  <div class="row" style="margin:5px; padding-top:5px; padding-bottom: 10px;">
+                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 display-cell hidden-print  hidden-sm hidden-xs">
+                              <a href="http://www.cs.ucy.ac.cy" target="_new" class="img-responsive"><img src="pics/CSUCYLogo.jpg" alt="CS UCY Logo" class="img-responsive col-xs-12">
+                          </a></div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  display-cell text-center">
+                              <h2>ΕΠΛ133: Αντικειμενοστρεφής Προγραμματισμός</h2>
+                              <h4>Οικοσελίδα</h4>
+                          </div>
+                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  display-cell hidden-print hidden-sm hidden-xs">
+                              <h4 class="text-center">Εαρινό Εξάμηνο 2017</h4>
+                          </div>
+                      </div>
+                      
+                      <div class="container-fluid" style="padding:10px 10px">
+                          <nav class="collapse navbar-collapse" >
+                              <ul class="nav nav-tabs" role="navigation" id=epl133-nav>
+                                  <li class="active"><a href="index.html">ΕΠΛ133</a></li>
+                                  <li><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
+                                  <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
+                                  <li><a href="assignments.html">Εργασίες</a></li>
+                                  <li><a href="contract.html">Συμβόλαιο</a></li>
+                                  <!--<li><a href="labs.html">Εργαστήρια</a></li>-->
+                                  <li><a href="http://www.piazza.com" target="_new">Piazza</a></li>
+                              </ul>
+                          </nav>
+                      </div>
+                      
+                      <nav class="navbar navbar-default visible-xs">
+                          <div class="container-fluid visible-xs">
+                              <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+                                  <span class="sr-only">Toggle navigation</span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  </button>
+                                  <a class="navbar-brand" href="index.html">ΕΠΛ133</a>
+                              </div>
+                              <div id="myNavbar" class="navbar-collapse collapse">
+                                  <ul class="nav navbar-bar">
+                                      <li><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
+                                      <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
+                                      <li><a href="assignments.html">Εργασίες</a></li>
+                                      <li><a href="contract.html">Συμβόλαιο</a></li>
+                                      <li><a href="labs.html">Εργαστήρια</a></li>
+                                      <li><a href="http://www.piazza.com" target="_new">Piazza</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </nav>
+                  </div>
+                  
+                  <h2 class="visible-print">ΕΠΛ133: Γενικές Πληροφορίες</h2>
+                  <h3>Σύνοψη</h3>
+                  <p class="lead"> Το μάθημα έχει στόχο να διδάξει τα βασικά της αντικειμενοστρεφής ανάλυσης, σχεδιασμού και προγραμματισμού. Οι φοιτητές θα αποκτήσουν εμπειρία στην ανάπτυξη λογισμικού σε μεγαλύτερη κλίμακα και στην ομαδική εργασία. Οι φοιτητές θα μάθουν και θα εφαρμόσουν κάποια από τα τρέχοντα εργαλεία της σύγχρονης και αντικειμενοστραφής τεχνολογίας: κληρονομικότητα, πολυμορφισμός, διεπαφές, τεχνικές Unified Modeling Language (UML).<br>
+                      <strong>Διδάσκων:</strong> Μάριος Δ. Δικαιάκος, Καθηγητής.<!--<a onclick="javascript:$('#instructor').toggle();"> &raquo;</a><br>-->
+                      <a onclick="$('#instructor').toggle();" class="btn btn-xs btn-success">&raquo;</a><br>
+                      <small style="display:none;" id="instructor">Web:<a href="http://www.cs.ucy.ac.cy/mdd"> http://www.cs.ucy.ac.cy/mdd</a>, Τηλ.: <a href="tel:0035722892720">22-892720</a>,
+                      Γραφείο: <a target="_blank" href="http://goo.gl/tWjxUk">ΘΕΕ01-012</a>, Ώρες Γραφείου:</i> Τρίτη, 14:00-16:00 ή κατόπιν συννενόησης <a href="https://twitter.com/dikaiakos" class="twitter-follow-button" data-show-count="false">Follow @dikaiakos</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+                      </small>
+                      <strong>Assistant:</strong> Pyrros Bratskas, Υπεύθυνος Εργαστηρίων.<!--<a onclick="javascript:$('#assistant').toggle();"> &raquo;</a><br>-->
+                      <a onclick="$('#assistant').toggle();" class="btn btn-xs btn-success">&raquo;</a><br>
+                      <small style="display:none;" id="assistant">Web:<a href="http://www.cs.ucy.ac.cy/~bratskas"> http://www.cs.ucy.ac.cy/~bratskas/</a>, Τηλ.: <a href="tel:0035722893930">22-893930</a>,
+                      Γραφείο: <a target="_blank" href="https://goo.gl/OckP3O">ΘΕΕ01-B118</a>, Ώρες Γραφείου:</i> Πέμπτη, 10:00-12:00 ή κατόπιν συννενόησης <br>
+                      </small>
+                      <b>Προαπαιτούμενα:</b> ΕΠΛ131<br>
+                      <strong>Διαλέξεις:</strong> Τρίτη 10:30-12:00. Παρασκευή 10:30-12:00. Αίθουσα ΧΩΔ02 119  <br>
+                      <strong>Φροντιστήριο:</strong> Τρίτη 12:00-13:00. Αίθουσα ΧΩΔ02 119  <br>
+                      <strong>Εργαστήριο:</strong> Δευτέρα 14:30-16:30 16:30-18:30. Αίθουσα Β121 (ΘΕΕ01)<br>
+                      <strong>Hλεκτρονικό Φόρουμ:</strong> <a href="https://piazza.com/ucy.ac.cy/winter2017/epl133/home" target="_new">https://piazza.com/ucy.ac.cy/winter2017/epl133/home</a>
+                  </p>
+                  <!--<h3>Περιεχόμενο</h3>
+                  <ul>
+                      <li>Ανασκόπηση Βασικών Τεχνολογιών Διαδικτύου (Internet Fundamentals).</li>
+                      <li>Αρχές Συστημάτων Υπερκειμένου (Hypertext).</li>
+                      <li>Σχεδιασμός και Ανάπτυξη Ιστιακών Τόπων (Web Design Fundamentals).</li>
+                      <li>Γλώσσες Συγγραφής Περιεχομένου Ιστού - HTML (Mark-up Languages).</li>
+                      <li>Γλώσσες Τεχνοτροπίας και Στοιχειοθεσίας Ιστοσελίδων - CSS (Cascading Style Sheets, Page Layouts).</li>
+                      <li>Μεθοδολογίες Σχεδιασμού και Ανάπτυξης Ιστιακών Τόπων και Εφαρμογών (Web Design & Development).</li>
+                      <li>Προγραμματισμός Εξυπηρετητών Ιστού με τη γλώσσα PhP (Server-side Programming).</li>
+                      <li>Δυναμικό Περιεχόμενο και Φόρμες (Dynamic content and HTML Forms).</li>
+                      <li>Εισαγωγή στη Javascript για Προγραμματισμό Πελατών Ιστού.</li>
+                      <li>Αρχές Web 2.0 και Προγραμματισμός με Ασύγχρονη Javascript.</li>
+                      <li>Διασύνδεση Βάσεων Δεδομένων με το Παγκόσμιο Πληροφοριακό Περιβάλλον.</li>
+                  </ul>-->
+                  <footer class="hidden-print">
+                      <hr/>
+                      <p class="text-center">[<a href="index.html">EPL133</a>]</p>
+                      <small>Marios Dikaiakos, &copy; 2000-2017 </small>
+                  </footer>
+              </div>
+          </div>
+      </body>
+  </html>
