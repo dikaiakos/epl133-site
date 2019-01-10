@@ -19,17 +19,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <script>
-        $(document).ready(function(){
-        $(".btn-primary").click(function(){
-        $(".collapse").collapse('toggle');
-        });
-        $(".btn-success").click(function(){
-        $(".collapse").collapse('show');
-        });
-        $(".btn-warning").click(function(){
-        $(".collapse").collapse('hide');
-        });
-        });
+          $(document).ready(function () {
+            /*$(".btn-primary").click(function () {
+              $(".collapse").collapse('toggle');
+            });*/
+            $(".btn-success").click(function () {
+              $("table .collapse").collapse('toggle');
+            });
+            /*$(".btn-warning").click(function () {
+              $(".collapse").collapse('hide');
+            });*/
+          });
         </script>
         <style>
         .jumbotron{
@@ -79,27 +79,27 @@
                 </div>
 
                 <nav class="navbar navbar-default visible-xs">
-                    <div class="container-fluid visible-xs">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">ΕΠΛ133</a>
-                        </div>
-                        <div id="myNavbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-bar">
-                                <li class="active"><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
-                                <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
-                                <li><a href="assignments.html">Εργασίες</a></li>
-                                <li><a href="contract.html">Συμβόλαιο</a></li>
-                                <!--<li><a href="labs.html">Εργαστήρια</a></li>-->
-                                <li><a href="http://www.piazza.com" target="_new">Piazza</a></li>
-                            </ul>
-                        </div>
+                  <div class="container-fluid visible-xs">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+                              data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html">ΕΠΛ133</a>
                     </div>
+                    <div id="myNavbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-bar">
+                        <li><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
+                        <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
+                        <li><a href="assignments.html">Εργασίες</a></li>
+                        <li><a href="contract.html">Συμβόλαιο</a></li>
+                        <li><a href="https://piazza.com/ucy.ac.cy/fall2018/cs425/home" target="_blank">Piazza</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </nav>
             </div>
 
