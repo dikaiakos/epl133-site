@@ -17,14 +17,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="1069" column="35" selection-start-line="1069" selection-start-column="35" selection-end-line="1069" selection-end-column="35" />
+            <state relative-caret-position="388">
+              <caret line="1166" column="49" selection-start-line="1166" selection-start-column="49" selection-end-line="1166" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#49418#49444#0" expanded="true" />
-                <element signature="e#51322#51348#0" expanded="true" />
-                <element signature="e#52564#52590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +49,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
-    <option name="y" value="67" />
+    <option name="x" value="32" />
+    <option name="y" value="72" />
     <option name="width" value="1771" />
     <option name="height" value="998" />
   </component>
@@ -62,6 +59,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -74,7 +72,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,18 +149,19 @@
       <workItem from="1551689494552" duration="540000" />
       <workItem from="1551692627702" duration="55000" />
       <workItem from="1551786876771" duration="432000" />
-      <workItem from="1552896181657" duration="450000" />
+      <workItem from="1552896181657" duration="563000" />
+      <workItem from="1553168823539" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18841000" />
+    <option name="totallyTimeSpent" value="19307000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="67" width="1771" height="998" extended-state="0" />
+    <frame x="32" y="72" width="1771" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26373628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26662812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -240,14 +238,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="1069" column="35" selection-start-line="1069" selection-start-column="35" selection-end-line="1069" selection-end-column="35" />
+        <state relative-caret-position="388">
+          <caret line="1166" column="49" selection-start-line="1166" selection-start-column="49" selection-end-line="1166" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#49418#49444#0" expanded="true" />
-            <element signature="e#51322#51348#0" expanded="true" />
-            <element signature="e#52564#52590#0" expanded="true" />
           </folding>
         </state>
       </provider>
