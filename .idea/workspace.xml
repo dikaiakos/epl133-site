@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26fb4c3f-7549-4f24-82b5-5d3e06f3ec38" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -110,7 +111,7 @@
       <workItem from="1557222692439" duration="10000" />
       <workItem from="1562314922943" duration="97000" />
       <workItem from="1578395136618" duration="559000" />
-      <workItem from="1578483046875" duration="155000" />
+      <workItem from="1578483046875" duration="506000" />
     </task>
     <servers />
   </component>
