@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="26fb4c3f-7549-4f24-82b5-5d3e06f3ec38" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
+=======
+    <list default="true" id="26fb4c3f-7549-4f24-82b5-5d3e06f3ec38" name="Default" comment="" />
+>>>>>>> 9f017cdf69a7faa889418d315f3022dc6cbf033b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1W43eIWsdAmNwOdZrw3FE0Vek3b" />
+  <component name="ProjectId" id="1WOvPA7QVlzoevzZr69tFkyjWhl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,10 +31,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunManager">
@@ -105,6 +105,7 @@
       <workItem from="1553168823539" duration="353000" />
       <workItem from="1553510225143" duration="103000" />
       <workItem from="1553599559111" duration="753000" />
+<<<<<<< HEAD
       <workItem from="1555409286518" duration="383000" />
       <workItem from="1557222692439" duration="10000" />
       <workItem from="1562314922943" duration="97000" />
@@ -120,12 +121,17 @@
       <workItem from="1579518024758" duration="8000" />
       <workItem from="1579518074936" duration="4000" />
       <workItem from="1579604471334" duration="367000" />
+=======
+      <workItem from="1555409286518" duration="331000" />
+      <workItem from="1578859942294" duration="949000" />
+>>>>>>> 9f017cdf69a7faa889418d315f3022dc6cbf033b
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -152,5 +158,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="653" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1579518027594" />
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> 9f017cdf69a7faa889418d315f3022dc6cbf033b
   </component>
 </project>
