@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26fb4c3f-7549-4f24-82b5-5d3e06f3ec38" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/contract.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +114,12 @@
       <workItem from="1578484310846" duration="191000" />
       <workItem from="1578484562987" duration="517000" />
       <workItem from="1578576920850" duration="20000" />
-      <workItem from="1578576950279" duration="2103000" />
+      <workItem from="1578576950279" duration="2389000" />
+      <workItem from="1578581273978" duration="3000" />
+      <workItem from="1578919990873" duration="58000" />
+      <workItem from="1579518024758" duration="8000" />
+      <workItem from="1579518074936" duration="4000" />
+      <workItem from="1579604471334" duration="367000" />
     </task>
     <servers />
   </component>
@@ -145,9 +148,9 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="448" y="132" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1578485938012" />
-    <state x="653" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1578576952987">
+    <state x="653" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1579518027594">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="653" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1578576952987" />
+    <state x="653" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1579518027594" />
   </component>
 </project>
