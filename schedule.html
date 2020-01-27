@@ -421,7 +421,7 @@
         <div id="lab3-learn" class="collapse epl425-learnout">
           <strong>Learning Objectives:</strong> Explore the use of abstraction in problem solving.
           <ul>
-            <!--<li> Quiz 0 - Eclipse and compiling</li> 
+            <!--<li> Quiz 0 - Eclipse and compiling</li>
             <li> Finish previous lab exercises</li> -->
           </ul>
         </div>
@@ -453,7 +453,7 @@
         <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
                 data-target="#lect5-read"><span class="glyphicon glyphicon-book"></span> Readings
         </button>
-        <a href="" target="_new"
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5tvtyjyu5717i" target="_new"
            type="button" class="btn btn-default btn-xs hidden-print"><span class="fi-clipboard-pencil"></span> Notes</a>
         <span id="lect5-learn" class="collapse epl425-learnout"><strong>Learning Objectives:</strong>
           <ul>
@@ -523,6 +523,8 @@
         <span id="lect6-learn" class="collapse epl425-learnout">
           <strong>Learning Objectives:</strong> Understand, explain and use the concepts of:
           <ul>
+            <li>Understand Java object construction and initialization.</li>
+            <li>Method and constructor overloading.</li>
             <li>Memory Management.</li>
             <li>Memory allocation.</li>
             <li>The organization of virtual memory, the concepts of stack, heap and static memory.
@@ -544,6 +546,28 @@
         </div>
       </td>
     </tr>
+
+    <!- LECTURE 7 -->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 7: 31/1</td>
+      <td><strong>Advanced Class Design in Java.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect7-learn"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect7-read"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print"><span class="fi-clipboard-pencil"></span> Notes</a>
+        <span id="lect7-learn" class="collapse epl425-learnout"><strong>Learning Objectives:</strong>
+                            Introduction to static memory, static variables (class variables) and static methods (class methods).
+                            Review of Wrapper classes and their methods. References and class parameters. Review of call-by-value semantics in Java.
+                        </span>
+        <span id="lect7-read" class="collapse"><strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>,
+                            Walter Savitch.</span>
+      </td>
+    </tr>
+
 
     <!- LAB 6 ->
     <tr>
@@ -573,7 +597,7 @@
 
     <!- PRECEPT 4 -->
     <tr>
-      <td scope="row" style="white-space:nowrap">Precept: 4/2</td>
+      <td scope="row" style="white-space:nowrap">Precept 4: 4/2</td>
       <td><strong>Memory Management review. Garbage collection.</strong>
         <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
                 data-target="#prec4-learn"><span class="fa fa-certificate"></span> Learning Objectives
@@ -599,24 +623,31 @@
       </td>
     </tr>
 
-    <!- LECTURE 7 -->
+    <!- LECTURE 8 ->
     <tr>
-      <td scope="row" style="white-space:nowrap">Lecture 7: 4/2</td>
-      <td><strong>Advanced Class Design in Java.</strong>
+      <td scope="row">Lecture 8: 4/2</td>
+      <td><strong>Invariants.</strong>
         <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
-                data-target="#lect7-learn"><span class="fa fa-certificate"></span> Learning Objectives
+                data-target="#lect8-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
         </button>
         <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
-                data-target="#lect7-read"><span class="glyphicon glyphicon-book"></span> Readings
+                data-target="#lect8-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
         </button>
         <a href="" target="_new"
-           type="button" class="btn btn-default btn-xs hidden-print"><span class="fi-clipboard-pencil"></span> Notes</a>
-        <span id="lect7-learn" class="collapse epl425-learnout"><strong>Learning Objectives:</strong>
-                            Introduction to static memory, static variables (class variables) and static methods (class methods).
-                            Review of Wrapper classes and their methods. References and class parameters. Review of call-by-value semantics in Java.
-                        </span>
-        <span id="lect7-read" class="collapse"><strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>,
-                            Walter Savitch.</span>
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span id="lect8-learn" class="collapse epl425-learnout">
+              <strong>Learning Objectives:</strong>
+                             Using and misusing references. Introduction to Invariants. Understanding class invariants.
+                                Applying class invariants in constructors and methods. Expand on encapsulation and information
+                                hiding through copy constructors and the concept of privacy leakage, mutable and immutable classes.
+            </span>
+        <div id="lect8-read" class="collapse">
+          <strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>, Walter Savitch.
+        </div>
       </td>
     </tr>
 
@@ -643,33 +674,7 @@
       </td>
     </tr>
 
-    <!- LECTURE 8 ->
-    <tr>
-      <td scope="row">Lecture 8: 7/2</td>
-      <td><strong>Invariants.</strong>
-        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
-                data-target="#lect8-learn">
-          <span class="fa fa-certificate"></span> Learning Objectives
-        </button>
-        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
-                data-target="#lect8-read">
-          <span class="glyphicon glyphicon-book"></span> Readings
-        </button>
-        <a href="" target="_new"
-           type="button" class="btn btn-default btn-xs hidden-print">
-          <span class="fi-clipboard-pencil"></span> Notes
-        </a>
-        <span id="lect8-learn" class="collapse epl425-learnout">
-              <strong>Learning Objectives:</strong>
-                             Using and misusing references. Introduction to Invariants. Understanding class invariants.
-                                Applying class invariants in constructors and methods. Expand on encapsulation and information
-                                hiding through copy constructors and the concept of privacy leakage, mutable and immutable classes.
-            </span>
-        <div id="lect8-read" class="collapse">
-          <strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>, Walter Savitch.
-        </div>
-      </td>
-    </tr>
+
 
     <!- LAB 8 ->
     <tr>
