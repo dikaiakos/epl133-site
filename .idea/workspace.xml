@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="">
+    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="First draft for Spring 2020">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/contract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1YhyGI6iZhNIEZAVWxoaHFfgQJw" />
   <component name="ProjectLevelVcsManager">
@@ -36,6 +43,15 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -58,16 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,17 +104,29 @@
       <workItem from="1589183776929" duration="283000" />
       <workItem from="1589287728752" duration="70000" />
       <workItem from="1589438411157" duration="121000" />
+      <workItem from="1610370148023" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First draft for Spring 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="First draft for Spring 2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="435" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1586628177643">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="435" y="97" key="CommitChangelistDialog2" timestamp="1610370393216">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="435" y="311" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586628177643" />
-    <state x="580" y="370" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1584373051847" />
+    <state x="435" y="97" key="CommitChangelistDialog2/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610370393216" />
+    <state x="729" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610017513279">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="729" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610017513279" />
+    <state x="621" y="251" width="602" height="548" key="find.popup" timestamp="1610018129916">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="621" y="251" width="602" height="548" key="find.popup/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610018129916" />
   </component>
 </project>
