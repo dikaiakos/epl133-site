@@ -1,710 +1,2011 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>EPL133: Schedule</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" href="epl133.css">
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <script>
-        $(document).ready(function(){
-        $(".btn-primary").click(function(){
-        $(".collapse").collapse('toggle');
-        });
-        $(".btn-success").click(function(){
-        $(".collapse").collapse('show');
-        });
-        $(".btn-warning").click(function(){
-        $(".collapse").collapse('hide');
-        });
-        });
-        </script>
-        <style>
-        .jumbotron{
-        background-color:white;
-        color:black;
-        }
-        /* Adds borders for tabs */
-        .tab-content {
-        border-left: 1px solid #ddd;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-        padding: 10px;
-        }
-        .nav-tabs {
-        margin-bottom: 0;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="hidden-print">
-                <div class="row" style="margin:5px; padding-top:5px; padding-bottom: 10px;">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 display-cell hidden-print  hidden-sm hidden-xs">
-                        <a href="http://www.cs.ucy.ac.cy" target="_new"><img src="pics/CSUCYLogo.jpg" alt="CS UCY Logo" class="img-responsive col-xs-12">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  display-cell text-center">
-                        <h2>ΕΠΛ133: Αντικειμενοστρεφής Προγραμματισμός</h2>
-                        <h4>Πρόγραμμα Μαθημάτων</h4>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  display-cell hidden-print hidden-sm hidden-xs">
-                        <h4 class="text-center">Εαρινό Εξάμηνο 2018</h4>
-                    </div>
-                </div>
-                <div class="container-fluid" style="padding:10px 10px">
-                    <nav class="collapse navbar-collapse" >
-                        <ul class="nav nav-tabs" role="navigation" id=epl425-nav>
-                            <li><a href="index.html">ΕΠΛ133</a></li>
-                            <li class="active"><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
-                            <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
-                            <li><a href="assignments.html">Εργασίες</a></li>
-                            <li><a href="contract.html">Συμβόλαιο</a></li>
-                            <!--<li><a href="labs.html">Εργαστήρια</a></li>-->
-                            <li><a href="http://www.piazza.com" target="_new">Piazza</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                
-                <nav class="navbar navbar-default visible-xs">
-                    <div class="container-fluid visible-xs">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">ΕΠΛ133</a>
-                        </div>
-                        <div id="myNavbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-bar">
-                                <li class="active"><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
-                                <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
-                                <li><a href="assignments.html">Εργασίες</a></li>
-                                <li><a href="contract.html">Συμβόλαιο</a></li>
-                                <!--<li><a href="labs.html">Εργαστήρια</a></li>-->
-                                <li><a href="http://www.piazza.com" target="_new">Piazza</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            
-            <h3>Πρόγραμμα Μαθημάτων <a target="_blank" onClick="javascript:$('.allshow').toggle();" class="btn btn-primary btn-success small">&raquo;</a></h3>
-            
-            
-            <table class="table table-responsive table-condensed table-hover" style="border-top, border-bottom: solid 1px grey">
-                <thead>
-                    
-                </thead>
-                <tbody>
-  
- 
-                    <!-- -----------Week 4------------- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 4:  </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 6: </td>
-                        <td><strong>Strings in Java.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod4-lab6-learn"><span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod4-lab6-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/iyts5ehhx283zo" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="mod4-lab6-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> String Pool in Java</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 6: </td>
-                        <td><strong>Advanced Class Design in Java.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect6-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect6-read"> <span class="glyphicon glyphicon-book"></span> </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/iyu7iewh2wh3tt" target="_new" type="button" class="btn btn-default btn-xs hidden-print"><span class="fi-clipboard-pencil"></span></a>
-                            <span id="lect6-learn" class="collapse epl425-learnout"><strong>Learning outcome:</strong> Understand the concept of static variables and static methods in Java. Review the sequence of initializations. More on garbage collection in Java. Introduction to the concept of Class Parameters and their significance. Gain an understanding of the concept of invariants and class    invariants.
-                            </span>
-                            <span id="lect6-read" class="collapse"><strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>, Walter Savitch.</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 7: </td>
-                        <td><strong>JUnit</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod4-lab7-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod4-lab7-read"> <span class="glyphicon glyphicon-book"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/iyy3g2mbzbc6al" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod4-lab7-learn" class="collapse epl425-learnout"> <strong>Learning outcomes: </strong> How to write unit test in Java.</div>
-                            <div id="mod4-lab7-read" class="collapse"> <strong>Readings and References:</strong>
-                                <ul>
-                                    <li><a href="http://junit.org/junit4/">JUnit</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Unit_testing">Unit Testing</a></li>
-                                    <li><a href="http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/">Writing great Unit Tests: Best and Worst Practices</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
 
-                    <!-- -----------Week 5------------- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 5: </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap"> Quiz: </td>
-                        <td><strong>Quiz 1</strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="active" scope="row" style="white-space:nowrap">Precept: </td>
-                        <td><strong>Review of Quiz1 problem sets.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod5-p-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#mod5-p-read"> <span class="glyphicon glyphicon-book"></span> </button>-->
-                            <button type="button" class="btn btn-default btn-xs hidden-print"> <span class="fi-clipboard-pencil"></span> </button>
-                            <div id="mod5-p-learn" class="collapse epl425-learnout"> <strong>Learning outcome:</strong> Implementing a Date class in Java. discussion about Strings in Java 8. </div>
-                            <!--<div id="mod5-p-read" class="collapse"> <strong>Readings and References:</strong></div>-->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 8: </td>
-                        <td><strong>Garbage Collector</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod5-lab9-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod5-lab9-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/iz84uaxxipn321" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod5-lab9-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Garbage colloctor by examples. How to compile using -claspath (-cp) option
-                            </div>
-                            <!--<div id="mod5-lab9-read" class="collapse"> <strong>Readings and References:</strong>  </div>-->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 8: </td>
-                        <td><strong>Problem Solving Methodologies.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect8-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect8-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/ize21syurha60h" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect8-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to state-space representation and problem formulation. Introduction to Analysis Methodologies: Project Planning, Requirements Analysis, Specification, Development and Evolution, Testing.
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>EPL133: Schedule</title>
+  <!-- Bootstrap CSS -->
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        rel="stylesheet">
+  <link href="epl133.css" rel="stylesheet">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="foundation-icons/foundation-icons.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+    $(document).ready(function () {
+      /*$(".btn-primary").click(function () {
+        $(".collapse").collapse('toggle');
+      });*/
+      $(".btn-success").click(function () {
+        $("table .collapse").collapse('toggle');
+      });
+      /*$(".btn-warning").click(function () {
+        $(".collapse").collapse('hide');
+      });*/
+    });
+  </script>
+
+  <style>
+    .jumbotron {
+      background-color: white;
+      color: black;
+    }
+
+    /* Adds borders for tabs */
+    .tab-content {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .nav-tabs {
+      margin-bottom: 0;
+    }
+
+    .btn-success:hover {
+      background-color: #449d44;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="hidden-print">
+    <div class="row" style="margin:5px; padding-top:5px; padding-bottom: 10px;">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 display-cell hidden-print  hidden-sm hidden-xs">
+        <a href="http://www.cs.ucy.ac.cy" target="_new"><img alt="CS UCY Logo" class="img-responsive col-xs-12"
+                                                             src="pics/CSUCYLogo.jpg">
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  display-cell text-center">
+        <h2>ΕΠΛ133: Αντικειμενοστρεφής Προγραμματισμός</h2>
+        <h4>Πρόγραμμα Μαθημάτων</h4>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  display-cell hidden-print hidden-sm hidden-xs">
+        <h4 class="text-center">Εαρινό Εξάμηνο 2021</h4>
+      </div>
+    </div>
+    <div class="container-fluid" style="padding:10px 10px">
+      <nav class="collapse navbar-collapse">
+        <ul class="nav nav-tabs" id=epl425-nav role="navigation">
+          <li><a href="index.html">ΕΠΛ133</a></li>
+          <li class="active"><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
+          <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
+          <li><a href="assignments.html">Εργασίες</a></li>
+          <li><a href="contract.html">Συμβόλαιο</a></li>
+          <!--<li><a href="labs.html">Εργαστήρια</a></li>-->
+          <li><a href="http://piazza.com/ucy.ac.cy/spring2021/epl133/home" target="_new">Piazza</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <nav class="navbar navbar-default visible-xs">
+      <div class="container-fluid visible-xs">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed visible-xs"
+                  data-target="#myNavbar" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ΕΠΛ133</a>
+        </div>
+        <div class="navbar-collapse collapse" id="myNavbar">
+          <ul class="nav navbar-bar">
+            <li><a href="schedule.html">Πρόγραμμα Μαθημάτων</a></li>
+            <li><a href="resources.html">Xρήσιμο Υλικό</a></li>
+            <li><a href="assignments.html">Εργασίες</a></li>
+            <li><a href="contract.html">Συμβόλαιο</a></li>
+            <li><a href="https://piazza.com/ucy.ac.cy/spring2021/epl133/home" target="_blank">Piazza</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <h3>Πρόγραμμα Μαθημάτων και Μαθησιακοί Στόχοι
+    <a class="btn btn-success small" target="_blank">&raquo;</a></h3>
+  <table class="table table-responsive table-condensed table-hover"
+         style="border-top:solid;border-bottom:solid 1px grey">
+    <thead>
+
+    </thead>
+    <tbody>
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 1: Course Overview and Introductory Concepts.
+      </th>
+    </tr>
+
+    <!- PRECEPT 1 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept: 14/1</td>
+      <td><strong>EPL133 Contents and Requirements</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec1-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec1-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec1-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Become familiar with the EPL133 contract.</li>
+            <li>Join and become familiar with the <a href="http://piazza.com/ucy.ac.cy/spring2021/epl133/home"
+                                                     target="_blank">EPL133
+              Forum on Piazza</a> and learn how to use it to ask questions, contribute with answers and
+              communicate with the lecturer and teaching assistants.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec1-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Review EPL131 material.</li>
+            <li>Review the <a href="contract.html" target="_blank">course contract</a>.</li>
+            <li>Review the <a href="http://piazza.com/ucy.ac.cy/spring2021/epl133/home" target="_blank">EPL133
+              Forum on Piazza</a>.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 1 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 1: 14/1</td>
+      <td style="width: 100%"><strong>Introduction to Computational Thinking.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect1-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect1-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5e9p1szr322l9
+" target="_blank">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lect1-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand how to study and succeed in EPL133.</li>
+            <li>Understand computational thinking and be able to model and solve problems computationally.</li>
+            <li>Understand the concepts of problem formulation, problem solving,
+              and state representation in solving computational problems.
+            </li>
+            <li>Understand the concept of well-defined problems and apply it to translate abstract problem descriptions
+              to computational problems.
+            </li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect1-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Review EPL131 material.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LECTURE 2 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 2: 17/1</td>
+      <td><strong>The Java Platform.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect2-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect2-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5nrokoubji51z" target="_blank">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lect2-learn">
+          <strong>Learning Objectives:</strong> Understand and be able to explain and use:
+          <ul>
+            <li>Key programming terminology: compilation, interpretation, debugging, virtual machine, source code,
+              object code, assembly language, intermediate languages.
+            </li>
+            <li>The Java platform.</li>
+            <li>Interpretation vs. Compilation of computer programs.</li>
+            <li>Τhe Java Virtual Machine (JVM) and Bytecodes.</li>
+            <li>The concept of Multi-threading.</li>
+            <li>The lifecycle of a Java program.</li>
+            <li>Basic concepts of object-oriented programming.</li>
+            <li>The history of Object-oriented Programming.</li>
+            <li>The main aspects of the Java programming language.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect2-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Review EPL131 material.</li>
+            <li>Chapter 1. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li><a href="https://docs.oracle.com/javase/7/docs/api/" target="_blank">Java Platform, Standard Edition 7
+              API Specification</a>.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 1 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 1: 17/1</td>
+      <td><strong>Review basic Java programming environments and tools.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab1-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab1-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5hv7839fdl1kz" target="_new">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lab1-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Review the process of compiling and executing Java programs using the command line.</li>
+            <li>Organise your directory structure for EPL133.</li>
+            <li>Review the use of Eclipse.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lab1-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Review EPL131 material.</li>
+            <li>Chapters 1-3. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Java Tutorials</a> by Oracle.</li>
+          </ul>
+
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LECTURE 3 ->
+
+    <!- PRECEPT 2 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 2: 21/1</td>
+      <td><strong>Lifecycle of a Java program.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec2-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <div class="collapse epl425-learnout" id="prec2-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Refresh your knowledge of Java programming and recursion, and explore the concepts of class
+              design, object state and performance through the example of a Fibonacci implementation in Java.
+            </li>
+            <li>Understand the concepts of compilation, interpretation, the role of JVM, and bytecodes.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td scope="row">Lecture 3: 21/1</td>
+      <td><strong>Introduction to Object-Oriented Programming Abstractions.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect3-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect3-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5nrp3leef957i" target="_new">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lect3-learn">
+          <strong>Learning Objectives:</strong> Understand, identify and be able to employ key concepts
+          of abstraction, such as hierarchy and data abstraction. Understand how abstraction is used
+          to manage complexity. Understand the concepts of objects and classes. Understand the notions
+          of object properties (fields), object behaviors (methods), object id (handle).
+        </div>
+        <div class="collapse" id="lect3-read">
+          <strong>Readings:</strong> Chapter 4.1 <i>"Absolute Java"</i>, Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB2 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 2: 21/1</td>
+      <td><strong>Review Java programming style and comments.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab2-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab2-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5nkav3ed9f63w" target="_new">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lab2-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand and properly apply Java coding standards and Javadoc style comments.</li>
+            <li>Understand how to access and use online Java documentation.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lab2-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Review EPL131 material.</li>
+            <li>Chapters 1-3. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Java Tutorials</a> by Oracle.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- MODULE 3 -->
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 2: Class Design and Memory Allocation (Σχεδιασμός Κλάσεων.
+        Διαχείριση Μνήμης).
+      </th>
+    </tr>
+
+
+    <!- -- LECTURE 4 -->
+    <tr>
+      <td scope="row">Lecture 4: 24/1</td>
+      <td><strong>Class Design in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect4-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect4-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5qsk9o0p7y6xi"
+           target="_blank" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect4-learn">
+          <strong>Learning Objectives:</strong> Understand, identify and be able to:
+          <ul>
+            <li>Design Java classes, create Java objects, invoke methods and make proper use of
+              method parameters, arguments, and object handles.</li>
+            <li>Explain the concept of call-by-value vs. call-by-reference argument passing.</li>
+            <li>Use the parameter "this".</li>
+          </ul>
+        </span>
+        <span class="collapse" id="lect4-read">
+          <strong>Readings:</strong>
+           <ul>
+             <li>Chapter 4.1 <i>"Absolute Java"</i>, Walter Savitch.</li>
+           </ul>
+        </span>
+      </td>
+    </tr>
+
+
+    <!- LAB 3 -->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 3: 24/1</td>
+      <td><strong> Hands-on Examples of using Abstraction in Problem Solving.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab3-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5rudah7w4r72g" target="_new">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lab3-learn">
+          <strong>Learning Objectives:</strong> Explore the use of abstraction in problem solving.
+          <ul>
+            <!--<li> Quiz 0 - Eclipse and compiling</li>
+            <li> Finish previous lab exercises</li> -->
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- -- LECTURE 5 -->
+
+
+    <!- PRECEPT 3 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 3: 28/1</td>
+      <td><strong>Class design examples</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec3-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <div class="collapse epl425-learnout" id="prec3-learn"><strong>Learning Objectives:</strong>
+          Review the design of Java classes using information hiding and encapsulation.
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 5: 28/1</td>
+      <td><strong>Object-oriented Abstractions in Java: Information Hiding and Encapsulation.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect5-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect5-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5tvtyjyu5717i"
+           target="_new" type="button"><span class="fi-clipboard-pencil"></span> Notes</a>
+        <span class="collapse epl425-learnout" id="lect5-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand the concepts of information hiding and encapsulation in Java.</li>
+            <li>Private and public class members.</li>
+            <li>Accessor and Mutator Methods.</li>
+            <li>Understand Java object construction and initialization.</li>
+            <li>Method and constructor overloading.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect5-read"><strong>Readings:</strong>
+          <ul>
+            <li>Chapter 4.2, 4.3, 4.4. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li>Review of recursion. Chapter 11. <i>"Absolute Java"</i>,
+              Walter Savitch.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 4 -->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 4: 28/1</td>
+      <td><strong>Class design in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab4-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k5xl7gr02s86yt" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab4-learn">
+          <strong>Learning Objectives:</strong> Explore examples of class definition in Java.
+          <ul>
+            <li> Design a class representing a circle.</li>
+            <li> Design a class representing a triangle.</li>
+            <li> The green mice. Create "mice" in different ways and make them "evolve" over time.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LECTURE 6 -->
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 6: 31/1</td>
+      <td><strong>Memory Management.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect6-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect6-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k627tz9jxhoup"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://www.youtube.com/watch?v=zegJblEtrCU" target="_new"
+           type="button">
+          <span class="fi-social-youtube"></span>
+        </a>
+        <span class="collapse epl425-learnout" id="lect6-learn">
+          <strong>Learning Objectives:</strong> Understand, explain and use the concepts of:
+          <ul>
+            <li>Java object construction and initialization.</li>
+            <li>Method and constructor overloading.</li>
+            <li>Memory Management.</li>
+            <li>Memory allocation.</li>
+            <li>The organization of virtual memory, the concepts of stack, heap and static memory.
+            </li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect6-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 4. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li><a href="http://www.oracle.com/technetwork/java/javase/tech/memorymanagement-whitepaper-1-150020.pdf"
+                   target="_blank">Memory Management in the Java HotSpotTM Virtual Machine.</a>
+              Sun Microsystems, 2006.
+            </li>
+            <li><a href="http://www.javaworld.com/article/2075904/core-java/core-java-trash-talk-part-1.html"
+                   target="_blank">Java 101: Trash talk</a>. A tutorial by Jeff Friesen.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 7 -->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 7: 31/1</td>
+      <td><strong>Memory Management in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k628yc6e4ib6mz"
+           target="_new" type="button"><span class="fi-clipboard-pencil"></span> Notes</a>
+        <span class="collapse epl425-learnout" id="lect7-learn"><strong>Learning Objectives:</strong>
+          Be able to understand, explain and use the concepts of:
+          <ul>
+            <li>Memory management in Java.</li>
+            <li>Activation records (stack frames) and their role in maintaining method invocation semantics.</li>
+            <li>Heap-space allocation for storing Java objects.</li>
+            <li>Static memory, static variables (class variables) and static methods (class methods).</li>
+            <li>Review of memory management in the presence of method calls: stack, stack-frames (activation records), heap.</li>
+          </ul>
+        </span>
+        <span class="collapse" id="lect7-read"><strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>,
+                            Walter Savitch.</span>
+      </td>
+    </tr>
+
+
+    <!- LAB 5 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 5: 31/1</td>
+      <td><strong>Exploring Memory Management in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab5-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k61vy55qqnr7jm" target="_new">
+          <span class="fi-clipboard-pencil">Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="lab5-learn">
+          <strong>Learning objectives:</strong> Explore the memory allocation and garbage collection
+          mechanisms of Java programs.
+          <ul>
+            <li> Using th VisualVM tool.</li>
+            <li> String Pool in Java</li>
+            <li> Calculating the size of objects in memory</li>
+            <li> Understanding static and dynamic string concatenation in Java.</li>
+            <li> Garbage collector in use</li>
+            <li> Static Initialization Block</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- PRECEPT 4 -->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Precept 4: 4/2</td>
+      <td><strong>Memory Management review. Garbage collection.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes</a>
+        <span class="collapse epl425-learnout" id="prec4-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Review examples of static variables and methods and be able to explain and implement the concept.</li>
+            <li>Review what happens during object construction and initialization.</li>
+            <li>Understand the concept of garbage collection. Garbage collection in Java
+                  and related methods. Algorithms for garbage collection.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="prec4-read"><strong>Readings:</strong>
+          <ul>
+            <li>Chapters 5. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li>Review recursion and stacks for recursion. Chapter 11. <i>"Absolute Java"</i>,
+              Walter Savitch.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 8 ->
+    <tr>
+      <td scope="row">Lecture 8: 4/2</td>
+      <td><strong>Invariants.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k66fcnu95zg7ic"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect8-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand and be able to use wrapper classes instead of primitive types.</li>
+            <li>Revisit the call-by-value approach for passing arguments to method calls in the case of class parameters.</li>
+            <li>Understand the concept of invariants, class invariants and their implications for class design.</li>
+            <li>Apply class invariants in constructors and methods. Expand on encapsulation and information
+              hiding through copy constructors.</li>
+            <li>Understand the concepts of privacy leakage, mutable and immutable classes, and how to address privace leakage.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect8-read">
+          <strong>Readings:</strong> Chapter 5. <i>"Absolute Java"</i>, Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 6 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 6: 4/2</td>
+      <td><strong>Garbage collector in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab6-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k67kp87ftjm3s9" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab6-learn"> Learning Objectives
+          <strong>Learning Objectives:</strong> Explore the memory allocation and garbage collection
+          mechanisms of Java programs.
+          <ul>
+            <li> Understanding static and dynamic string concatenation in Java.</li>
+            <li> Garbage collector in use.</li>
+            <li> Static Initialization Block.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 7 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 7: 7/2</td>
+      <td><strong>JUnit Tests.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab7-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6buy9zyyog1mf" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab7-learn">
+          <strong>Learning Objectives:</strong> Explore the JUnit testing platform.
+          <ul>
+            <li> Creating JUnit tests in Eclipse</li>
+            <li> Writing tests</li>
+            <li> Running your tests cases</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- PRECEPT 5 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 5: 11/2</td>
+      <td><strong>Invariants in Practice</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec5-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6jh7cer87q3wp"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="prec5-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Be able to analyze invariants and implement them in constructors.</li>
+            <li>Understand the concept of privacy leaks.</li>
+            <li>Understand the use and apply the concept of copy constructors.</li>
+            <li>Be able to address privacy leaks and provide encapsulation through copy constructors.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 9 ->
+    <tr>
+      <td scope="row">Lecture 9: 11/2</td>
+      <td><strong>Code reuse in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect9-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6jh7cer87q3wp"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect9-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand how to create and re-use Java libraries (packages).</li>
+            <li>Understanding the role of CLASSPATH and how to set it up.</li>
+            <li>Overview of naming conventions for packages, classes, variables.</li>
+          </ul>
+         </span>
+        <div class="collapse" id="lect9-read">
+          <strong>Readings:</strong> Chapter 5.4 <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- Quiz 1 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Quiz 1: 11/2</td>
+      <td><strong>Quiz 1.</strong></td>
+    </tr>
+
+    <!- MODULE 5 -->
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 4: Inheritance (Κληρονομικότητα).</th>
+    </tr>
+
+    <!- LECTURE 10 ->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 10: 14/2</td>
+      <td><strong>Inheritance.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect10-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect10-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6qbs8ltuoi6ev"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect10-learn">
+                <strong>Learning objectives:</strong>
+             <ul>
+               <li>Understand and apply the concepts of class re-use through composition and
+              inheritance.</li>
+               <li>Understand the concept inheritance as an abstraction and programming technique.</li>
+               <li>Develop an understanding of the relation between inheritance and class hierarchy.</li>
+             </ul>
+        </span>
+        <div class="collapse" id="lect10-read">
+          <strong>Readings:</strong> Chapter 7. <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 9 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 9: 14/2</td>
+      <td><strong>UML class diagrams.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab9-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6lyfaffe5b1s0" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab9-learn">
+          <strong>Learning Objectives:</strong> Explore the JUnit testing platform.
+          <ul>
+            <li> How to use draw.io.</li>
+            <li> Design UML class diagrams with draw.io</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- PRECEPT 6 ->
+
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 6: 18/2</td>
+      <td><strong>Examples of inheritance.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec7-learn"><strong>Learning outcome:</strong>
+          Review of examples with inheritance.
+        </div>
+        <div class="collapse" id="prec7-read">
+          <strong>Readings:</strong> Chapter 7. <i>Absolute Java</i>
+          Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 11 ->
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 11: 18/2</td>
+      <td><strong>Inheritance continued.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect11-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6qbsotab6i6mw"
+           target="_new" type="button"> <span
+          class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lect11-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand and apply inheritance mechanisms.</li>
+            <li>Understand, explain and apply method overriding.</li>
+            <li>Understand and explain how object construction works in the case of inherited classes.</li>
+            <li>Be familiar with Final classes and final class members.</li>
+            <li>Understand and explain the differences of access specifiers: private, protected, public.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="lect11-read"><strong>Readings:</strong> Chapter 7. <i>Absolute Java</i>
+          Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 10 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 10: 18/2</td>
+      <td><strong>Inheritance in Java.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab10-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6rlkw77f66qz" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab10-learn">
+          <strong>Learning Objectives:</strong> Introducing inheritance in Java.
+          <ul>
+            <li> How super(), this() works.</li>
+            <li> The equals() method and inheritance.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LECTURE 12 ->
+
+
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 12: 21/2</td>
+      <td><strong>Upcasting.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect12-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k74zpji8qkq1a7"
+           target="_new" type="button"> Notes <span
+          class="fi-clipboard-pencil"></span>
+        </a>
+        <div class="collapse epl425-learnout" id="lect12-learn">
+          <strong>Learning objectives:</strong> Understand, recognize and apply of upcasting and its implications.
+          Review of examples with inheritance and upcasting. The "Object" class.
+        </div>
+        <div class="collapse" id="lect12-read"><strong>Readings:</strong> Chapter 7. <i>Absolute Java</i>
+          Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 11 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 11: 21/2</td>
+      <td><strong>Inheritance in Java - continued.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab11-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k6vwr4wqgel1oj"
+           target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab11-learn">
+          <strong>Learning outcome:</strong> Solve different problems using inheritance in Java.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- MODULE 5 -->
+
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 5: Polymorphism, Αbstract Classes and Interfaces (Πολυμορφισμός, Αφαιρετικές
+        Κλάσεις και Διαπροσωπείες).
+      </th>
+    </tr>
+
+    <!- PRECEPT 7 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 7: 25/2</td>
+      <td><strong>Review of inheritance and upcasting.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec7-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec7-learn"><strong>Learning outcome:</strong>
+          Review of examples with inheritance. Understand the concept of Software patterns. Recognize and
+          apply Code re-use through composition and delegation as an alternative to inheritance.
+        </div>
+        <div class="collapse" id="prec7-read">
+          <strong>Readings:</strong> Chapter 7. <i>Absolute Java</i>
+          Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 13>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 13: 25/2</td>
+      <td><strong>Introduction to Polymorphism.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect13-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7500zx0ji07dr"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <span class="collapse epl425-learnout" id="lect13-learn">
+                                <strong>Learning objectives:</strong> Understand and recognize the concept of Polymorphism.
+                                Introduction to the concept of binding.
                             </span>
-                            <div id="lect8-read" class="collapse">
-                                <strong>Readings:</strong>
-                                <ul>
-                                    <li>Chapter 12. <i>Absolute Java</i> Walter Savitch.</li>
-                                    <li>Chapter 2. "Object-Oriented Design and Patterns", Cay Horstmann, Wiley, 2nd edition, 2006.</li>
-                                    <li><a href="http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/" target="_blank">UML basics: The class diagram</a> by IBM.</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card" target="_blank">CRC Cards</a> by Wikipedia.</li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <!-- -----------Week 6------------- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 6: </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 9: </td>
-                        <td><strong>UML Designing Tools.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod6-lab10-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod6-lab10-read"> <span class="glyphicon glyphicon-book"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izds7b0mmki5p9" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod6-lab10-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> How to use the ArgoUML Tool to design class diagrams
-                                
-                            </div>
-                            <div id="mod6-lab10-read" class="collapse"> <strong>Readings and References:</strong> <a href="http://argouml.tigris.org/">ArgoUML</a> </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 9 and Precept: </td>
-                        <td><strong>The Object-Oriented Design process.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect9-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect9-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/ize2d1cq9htl6" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect9-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to problem formulation. Introduction to Object-oriented thinking in problem solving. Design with
-                                Class-Responsibilities-Collaborators cards. Introduction to UML. Formulating a take-away restaurant as an information processing problem.
+        <div class="collapse" id="lect13-read">
+          <strong>Readings:</strong> Chapter 8. <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 12 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 12: 25/2</td>
+      <td><strong>Polymorphism. </strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab12-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k71lllj3zrw38x" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab12-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li> Polymorphic behavior via method overriding.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 14>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 14: 28/2</td>
+      <td><strong> Polymorphism - continued.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect14-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7501ardf9m7nv"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect14-learn">
+            <strong>Learning Objectives:</strong>
+            <ul>
+              <li>Understand and apply how Polymorphism works with Static methods: Overriding vs. Hiding.</li>
+              <li>Polymorphism and Constructors.</li>
+              <li>Explore and understand the pitfalls of upcasting vs. downcasting.</li>
+              <li>Understand and use the clone method.</li>
+            </ul>
+        </span>
+        <div class="collapse" id="lect14-read">
+          <strong>Readings:</strong> Chapter 8. <i>Absolute Java,</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 13 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 13: 28/2</td>
+      <td><strong>Exercises on Polymorphism in Java. </strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab13-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k75wzmwy13es2
+" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab13-learn">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Polymorphic behavior via abstract classes.</li>
+            <li>Polymorphic copy.</li>
+            <li>Liskov Substitution Principle.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
+    <!- PRECEPT 8 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 8: 3/3</td>
+      <td><strong>Downcasting</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec8-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec8-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec8-learn"><strong>Learning outcome:</strong>
+          Explore examples of polymorphism, upcasting, and downcasting. The clone method and its use.
+        </div>
+        <div class="collapse" id="prec8-read"><strong>Readings:</strong> Chapter 8.1, <i>Absolute Java,</i> Walter
+          Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 15>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 15: 3/3</td>
+      <td><strong>Abstract Classes and Interfaces Introduction</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect15-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect15-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7epu7b4ww44gy"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect15-learn">
+           <strong>Learning Objectives:</strong>
+            <ul>
+              <li>Understand and apply abstract classes.</li>
+              <li>Understand and apply the concept of Interface.</li>
+              <li>See how interfaces are used in practice.</li>>
+              </ul>
+        </span>
+        <div class="collapse" id="lect15-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 8.2 <i>Absolute Java</i> Walter Savitch.</li>
+            <li>Chapter 13.1. <i>Absolute Java</i> Walter Savitch.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 14 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 14: 3/3</td>
+      <td><strong>Exercises on Polymorphism in Java. </strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab14-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7blhth14l15r2" target="_new">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab14-learn">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Polymorphic behavior via abstract classes.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 16>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 16: 6/3</td>
+      <td><strong>Interface inheritance. Using Interfaces.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect16-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect16-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7epulrti644j3"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span class="collapse epl425-learnout" id="lect16-learn">
+           <strong>Learning Objectives:</strong>
+            <ul>
+              <li>See how interfaces are used in practice.</li>
+              <li>Understand and apply the concept of Interfaces to develop general sorting code.</li>
+              <li>Understand and apply the definition of constants inside Interfaces.</li>
+            </ul>
+        </span>
+        <div class="collapse" id="lect16-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 8.2 <i>Absolute Java</i> Savitch & Mock.</li>
+            <li>Chapter 13.1. <i>Absolute Java</i> Savitch & Mock.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 15 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 15: 6/3</td>
+      <td><strong>Exercises on Interfaces. </strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lab15-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7fxbh59oad1j7" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div class="collapse epl425-learnout" id="lab15-learn">
+          <strong>Learning outcome:</strong> Using interfaces in Java.
+          <ul>
+            <li> Interfaces and inheritance.</li>
+            <li> Modelising geometric shapes using interfaces.</li>
+            <li> Example using Comparable interface.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- PRECEPT 9->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 9: 10/3</td>
+      <td><strong>Μultiple Inheritance and Default Methods.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec9-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec9-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        </a>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7kbpqgxysy2k2"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <div class="collapse epl425-learnout" id="prec9-learn"><strong>Learning objectives:</strong>
+          <ul>
+            <li>Understand and apply multiple inheritance through Interfaces.</li>
+            <li>Understand uses of Serializable and Clonable interface.</li>
+            <li>Understand the impact of conflicts in interface inheritance.</li>
+            <li>Default methods.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec9-read"><strong>Readings:</strong> Chapter 13.1, <i>Absolute Java</i>
+          Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 16 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 16: 10/3</td>
+      <td><strong>Exercises Interfaces - continued. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab16-learn"><span class="fa fa-certificate"></span>Learning objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7lncxhajoq6l7" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab16-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Using interfaces in Java.
+          <ul>
+            <li> More exercises on interfaces in Java.</li>
+            <li> Modelising shapes using interfaces - continued</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- -- MODULE 6 -->
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 6: Unified Modeling Language and Software Patterns (UML και Μοτίβα
+        Λογισμικού).
+      </th>
+    </tr>
+
+    <!- LECTURE 17 ->
+    <tr>
+      <td scope="row">Lecture 17: 10/3</td>
+      <td><strong>Unified Modeling Language.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect17-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect17-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7kbvaa5o7w6ts"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <span class="collapse epl425-learnout" id="lect17-learn">
+          <strong>Learning objectives:</strong>
+          <ul>
+            <li>Understand and apply basic UML concepts.</li>
+            <li>Understand and apply class diagrams and the different types of relationships that exist between classes and how these are represented in UML.</li>
+            <li>Introduction to the concept of Design Patterns.</li>
+            <li>Understand and apply various design patterns.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect17-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 12. <i>Absolute Java</i> Walter Savitch.</li>
+            <li><a href="http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/"
+                   target="_blank">UML basics: The class diagram</a> by IBM.
+            </li>
+            <li><a href="http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/"
+                   target="_blank">UML basics: The class diagram</a> by IBM.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!--
+        <tr>
+          <td bgcolor="#FF6666" scope="row"><strong>Midterm: 13/3 </strong></td>
+          <td bgcolor="#FF6666"> Topics: Chapters 1, 2, 3, 4, 5, 6, 7, 8, 11, 13.1
+            of <i>Absolute Java</i> Walter Savitch, and Class Notes.
+          </td>
+        </tr>-->
+
+    <!- LECTURE 17 ->
+    <tr>
+      <td scope="row">Lecture 18-dl: 13/3</td>
+      <td><strong>Design Patterns.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect18-learn" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect18-read" data-toggle="collapse"
+                type="button">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7uoygwe6pa2rp"
+           target="_new" type="button">
+          <span class="fi-clipboard-pencil"> Notes</span>
+        </a>
+        <span class="collapse epl425-learnout" id="lect18-learn">
+          <strong>Learning objectives:</strong>
+          <ul>
+            <li>Introduction to the concept of Design Patterns.</li>
+            <li>Understand and apply various design patterns: Adapter, Strategy, Model-View-Controller.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect18-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 12. <i>Absolute Java</i> Walter Savitch.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- MODULE 7 -->
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 7: Exception Handling and File I/O (Διαχείριση Εξαιρέσεων και
+        Είσοδος/'Εξοδος σε Αρχεία).
+      </th>
+    </tr>
+
+
+    <!- LECTURE 19>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 19-dl: 17/3</td>
+      <td><strong>Exception Handling.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect19-learn">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect19-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7uoyr5oplc3c0" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span id="lect19-learn" class="collapse epl425-learnout">
+              <strong>Learning outcome:</strong>
+              Understand the concept of exceptions and faults.
+                                Introduction to exception handling in Java.
                             </span>
-                            <div id="lect9-read" class="collapse">
-                                <strong>Readings:</strong>
-                                <ul>
-                                    <li>Chapter 12. <i>Absolute Java</i> Walter Savitch.</li>
-                                    <li>Chapter 2. "Object-Oriented Design and Patterns", Cay Horstmann, Wiley, 2nd edition, 2006.</li>
-                                    <li><a href="http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/" target="_blank">UML basics: The class diagram</a> by IBM.</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card" target="_blank">CRC Cards</a> by Wikipedia.</li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 10: </td>
-                        <td><strong>Designing classes with UML.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod6-lab11-learn">
-                            <span class="fa fa-certificate"></span> </button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod6-lab11-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izi4s6864pk5l6" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod6-lab11-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcomes:</strong>
-                                <ul>
-                                    <li>Designing UML class diagram.</li>
-                                    <li>Using CRC cards.</li>
-                                </ul>
-                            </div>
-                            <div id="mod6-lab11-read" class="collapse">
-                                <strong>Readings and References:</strong>
-                            </div>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 10: </td>
-                        <td><strong>The Unified Modeling Language.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect10-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect10-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izphcgvbmqd2jt" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect10-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Understand and gain working knowledge of UML: class diagrams, class relations,
-                            </span>
-                            <div id="lect10-read" class="collapse">
-                                <strong>Readings:</strong>
-                                <ul>
-                                    <li>Chapter 12. <i>Absolute Java</i> Walter Savitch.</li>
-                                    <li>Chapter 2. "Object-Oriented Design and Patterns", Cay Horstmann, Wiley, 2nd edition, 2006.</li>
-                                    <li><a href="http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/" target="_blank">UML basics: The class diagram</a> by IBM.</li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card" target="_blank">CRC Cards</a> by Wikipedia.</li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <!-- ------Week 7-------- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 7: </th>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 11 and Precept: </td>
-                        <td><strong>Inheritance.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect11-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect11-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izphhzobr1w3qb" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="lect11-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to class re-use through composition and inheritance. Introduction to inheritance as
-                                an abstraction and programming technique. Develop an understanding of the relation between inheritance and class hierarchy. Explore how
-                                object construction works in the case of inherited classes. Final classes.
-                            </div>
-                            <div id="lect11-read" class="collapse">
-                                <strong>Readings:</strong> Chapter 7. <i>Absolute Java</i> Walter Savitch.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 11: </td>
-                        <td><strong>Inheritance.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lab12-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod7-lab12-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izs4g4j5j9n70e" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="lab12-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Exercises on inheritance, The right way to define equals().</div>
-                            <div id="lab12-read" class="collapse"> <strong>Readings and References:</strong>  </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 12: </td>
-                        <td><strong>Inheritance continued.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect12-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect12-read"> <span class="glyphicon glyphicon-book"></span> </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/iztzqbzdjob6rt" target="_new" type="button" class="btn btn-default btn-xs hidden-print"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="lect12-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Explore the notion of Upcasting, overriding and downcasting. Introduction to enumerated classes. The Object and its methods.
-                            </div>
-                            <div id="lect12-read" class="collapse"> <strong>Readings:</strong> Chapter 7. <i>Absolute Java</i> Walter Savitch.
-                            </div>
-                        </td>
-                    </tr>
-                    <!-- ---Week 8---- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 8:  </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 12: </td>
-                        <td><strong>Inheritance.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod8-lab14-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/izxutuyok2256z" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod8-lab14-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Designing UML class diagrams with inheritance.
-                                
-                            </div>
-                            <div id="mod8-lab14-read" class="collapse"> <strong>Readings and References:</strong></div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 13 and Precept: </td>
-                        <td><strong>  Polymorphism.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect13-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect13-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j02eq2jpspv3xz" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect13-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to the concept of binding. In depth understanding of polymorphism. Polymorphism and
-                                Static methods: Overriding vs. Hiding. Polymorphism and Constructors. Pitfalls of upcasting vs. downcasting.
-                            </span>
-                            <div id="lect13-read" class="collapse">
-                                <strong>Readings:</strong> Chapter 8. <i>Absolute Java</i> Walter Savitch.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 13: </td>
-                        <td><strong>Polymorphism.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod8-lab15-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod8-lab15-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j024cumejox38h" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod8-lab15-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Polymorphic behavior via method overriding.
-                                
-                            </div>
-                            <div id="mod8-lab15-read" class="collapse"> <strong>Readings and References:</strong>  </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 14: </td>
-                        <td><strong>Abstract Classes and Interfaces.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect14-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect14-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j02eqh9plwo6l0" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect14-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to Abstract Classes. Introduction to Java Interfaces. Learn how to use Interfaces to write general code.
-                                Interface constants. Multiple inheritance and Java.
-                            </span>
-                            <span id="lect14-read" class="collapse">
-                                <strong>Readings:</strong> Chapters 8.2, 13.1. <i>Absolute Java</i> Walter Savitch.
-                            </span>
-                        </td>
-                    </tr>
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 9: </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 14: </td>
-                        <td><strong>Polymorphism, Abstract classes.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod9-lab15-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j07xy9po3cu46h" target="_new"><span class="fi-clipboard-pencil"></span></a>
-                            <div id="mod9-lab15-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Polymorphic behavior via abstract class. Polymorphic copy.</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 15 and Precept: </td>
-                        <td><strong>Interfaces.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect15-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect15-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j0cidt92wex7aw" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect15-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Review the concept and grammer of Interfaces. Using Interfaces to write generic code. Introduction to the concept of
-                                multiple inheritance. Explore the definition of classes that implement Multiple Interfaces. Dealing with Interface evolution with default methods.
-                                Understand the Cloneable Interface. Design patterns for "polymorphic" behavior: adapter and strategy.
-                            </span>
-                            <span id="lect15-read" class="collapse">
-                                <strong>Readings:</strong> Chapters 13.1, 13.2 <i>Absolute Java</i> Walter Savitch.
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 15: </td>
-                        <td><strong>Interfaces and Inheritance.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod9-lab17-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j0dlhmgvbfl26z" target="_new"><span class="fi-clipboard-pencil"></span></a>
-                            <span id="mod9-lab17-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Design interfaces, implement inheritance. </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Lecture 16: </td>
-                        <td><strong>Inner Classes.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect16-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect16-read"> <span class="glyphicon glyphicon-book"></span> </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j16do7ba62s6p4" target="_new" type="button" class="btn btn-default btn-xs hidden-print"> <span class="fi-clipboard-pencil"></span> </a>
-                            <span id="lect16-learn" class="collapse epl425-learnout"><strong>Learning outcome:</strong> Introduction to the concept of Inner Classes. Inner Classes and Polymorphism.</span>
-                            <span id="lect16-read" class="collapse"><strong>Readings:</strong> Chapter 13.2, 13.3. <i>Absolute Java</i> Walter Savitch.</span>
-                        </td>
-                    </tr>
-                    
-                    <!-- -----Week 10--- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 10: </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 16: </td>
-                        <td><strong>Interfaces and Abstract Classes.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod10-lab18-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod10-lab18-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j0hq5wgtgo5dm" target="_new"><span class="fi-clipboard-pencil"></span></a>
-                            <div id="mod10-lab18-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Implementing polymorphism with Interfaces and Abstract Classes</div>
-                            <div id="mod10-lab18-read" class="collapse"> <strong>Readings and References:</strong></div>
-                        </td>
-                    </tr>
-                    <!-- <tr class="epl425-quiz">
-                        <td scope="row" colspan="2"><strong>Midterm: </strong></td>
-                    </tr>-->
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Quiz: </td>
-                        <td><strong>Quiz 2.</strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 17: </td>
-                        <td><strong>Advanced Inner Classes.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect17-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect17-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j16do7ba62s6p4" target="_new" type="button" class="btn btn-default btn-xs hidden-print"><span class="fi-clipboard-pencil"></span></a>
-                            <div id="lect17-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Explore Nested (Static) and Anonymous Inner Classes. Introduction to the Design Factory Design Pattern. Understand the concepts of Closures and Callbacks. Explore the implementation of callbacks through Inner Classes in Java. Introcuction to Event-driven Programming and Application Frameworks.
-                            </div>
-                            <div id="lect17-read" class="collapse">
-                                <strong>Readings:</strong>
-                                <ul>
-                                    <li>Chapter 13.2, 13.3. <i>Absolute Java</i> Walter Savitch.</li>
-                                    <li>Chapter 11. <i>Thinking in Java. 4th Edition</i> Bruce Eckel.</li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <!-- ----Week 11----- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 11:  </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 17: </td>
-                        <td><strong>Interfaces and Abstract Classes.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod11-lab20-learn"><span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j0rppdlju533wm" target="_new"><span class="fi-clipboard-pencil"></span></a>
-                            <div id="mod11-lab20-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Using interfaces and abstract classes to model real life objects.</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 18 and Precept: </td>
-                        <td><strong>Exceptions.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect18-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect18-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j16dpbem74a3g6" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="lect18-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong> Introduction to the concept of Exceptions and Exception Handling in Java.
-                            </div>
-                            <div id="lect18-read" class="collapse"> <strong>Readings:</strong> Chapter 19. <i>Absolute Java</i> Walter Savitch.</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 18: </td>
-                        <td><strong>Exceptions.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod11-lab21-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j0w0huy7gle3cg" target="_new"> <span class="fi-clipboard-pencil"></span></a>
-                            <div id="mod11-lab21-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Using exceptions, make your own exception classes.</div>
-                            <div id="mod11-lab21-read" class="collapse"> <strong>Readings and References:</strong>  </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 19: </td>
-                        <td><strong>Simple Lists in Java and the ArrayList Class.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect19-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect19-read"> <span class="glyphicon glyphicon-book"></span> </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j16dq0ctmi7ba" target="_new" type="button" class="btn btn-default btn-xs hidden-print"> <span class="fi-clipboard-pencil"></span> </a>
-                            <span id="lect19-learn" class="collapse epl425-learnout"> <strong>Learning outcome:</strong> Introduction to the ArrayList class. Introduction to the Basics of Generic classes.
-                            </span>
-                            <span id="lect19-read" class="collapse"> <strong>Readings:</strong> Chapter 14.1. <i>Absolute Java</i> Walter Savitch.</span>
-                        </td>
-                    </tr>
-                    <!-- ----Week 12----- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 12: </th>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 19: </td>
-                        <td><strong>Streams.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod12-lab22-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod12-lab22-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j11qdphqohn4cn" target="_new">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <div id="mod12-lab22-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Using streams in Java. Byte Streams, Character Streams.
-                            </div>
-                            <div id="mod12-lab22-read" class="collapse"> <strong>Readings and References:</strong></div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 20: </td>
-                        <td><strong>Generics.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect20-learn">
-                            <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect20-read">
-                            <span class="glyphicon glyphicon-book"></span>
-                            </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j16dq0ctmi7ba" target="_blank" type="button" class="btn btn-default btn-xs hidden-print">
-                                <span class="fi-clipboard-pencil"></span>
-                            </a>
-                            <span id="lect20-learn" class="collapse epl425-learnout">
-                                <strong>Learning outcome:</strong>Understand Generic Classes and Methods and their use.
-                            </span>
-                            <span id="lect20-read" class="collapse"><strong>Readings:</strong> Chapter 14.2. <i>Absolute Java</i> Walter Savitch.</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="active" scope="row" style="white-space:nowrap">Precept: </td>
-                        <td><strong>Review of Midterm exam and solutions.</strong></td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 20: </td>
-                        <td><strong>Generics.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod12-lab23-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j1612ijckm57dh" target="_new"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="mod12-lab23-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> How to use generics. Implement generic classes with inheritance.</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 21: </td>
-                        <td><strong>Linked Data Structures: linked-lists.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect21-learn"> <span class="fa fa-certificate"></span></button>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect21-read"> <span class="glyphicon glyphicon-book"></span> </button>
-                            <a href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j21mae79bfr4ay" target="_blank" type="button" class="btn btn-default btn-xs hidden-print"> <span class="fi-clipboard-pencil"></span> </a> <span id="lect21-learn" class="collapse epl425-learnout"> <strong>Learning outcome:</strong> Introduction and overview of linked data structures in Java. Develop experience with linked-list data structures and their properties. Iterators. </span>
-                            <span id="lect21-read" class="collapse"> <strong>Readings:</strong> Chapter 15.1, 15.2, 15.3 <i>Absolute Java</i> Walter Savitch.</span>
-                        </td>
-                    </tr>
-                    
-                    <!-- ----Week 13----- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 13: </th>
-                    </tr>
-                    <tr>
-                        <td class="danger" scope="row" style="white-space:nowrap">Lab 21: </td>
-                        <td><strong>Linked Data Structures.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod13-lab24-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod13-lab24-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j1vqe74aao257" target="_new"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="mod13-lab24-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Exposure to Linked lists and link-list programming.
-                            </div>
-                            <div id="mod13-lab24-read" class="collapse"> <strong>Readings and References:</strong>  </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 22 and Precept: </td>
-                        <td><strong>Linked Data Structures: linked-list variations, hashing, sets and trees.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect22-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j21mae79bfr4ay" target="_new"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="lect22-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Introduction to and review of Linked Lists and Hashtables, Sets and Trees.
-                            </div>
-                            <div id="lect22-read" class="collapse"> <strong>Readings and References:</strong> Chapter 15.4, 15.5, 15.6, 15.7. <i>Absolute Java</i> Walter Savitch.</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 22: </td>
-                        <td><strong>Collections.</strong></td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 23: </td>
-                        <td><strong>Java Collections, Maps and Iterators.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect23-learn"> <span class="fa fa-certificate"></span></button>
-                            <div id="lect23-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Learn how Java supports Collections, Maps and Iterators.</div>
-                            <div id="lect23-read" class="collapse"> <strong>Readings and References:</strong> Chapter 16. <i>Absolute Java</i> Walter Savitch. </div>
-                        </td>
-                    </tr>
-                    <!-- ----Week 14----- -->
-                    <tr class="warning">
-                        <th class="lead" colspan="2">Week 14: </th>
-                    </tr>
-                    <tr>
-                        <td class="danger" scope="row" style="white-space:nowrap">Lab 23: </td>
-                        <td><strong>To be defined.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#mod14-lab24-learn"> <span class="fa fa-certificate"></span></button>
-                            <!--<button type="button" class="btn btn-default btn-xs  hidden-print" data-toggle="collapse" data-target="#mod13-lab24-read"> <span class="glyphicon glyphicon-book"></span></button>-->
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j1vqe74aao257" target="_new"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="mod14-lab24-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Exposure to Linked lists and link-list programming.
-                            </div>
-                            <div id="mod14-lab24-read" class="collapse"> <strong>Readings and References:</strong>  </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 24 and Precept: </td>
-                        <td><strong>To be defined.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect22-learn"> <span class="fa fa-certificate"></span></button>
-                            <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/ipy1lt4heezjy/j21mae79bfr4ay" target="_new"> <span class="fi-clipboard-pencil"></span> </a>
-                            <div id="lect22-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong>
-                            </div>
-                            <div id="lect22-read" class="collapse"> <strong>Readings and References:</strong> </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td  class="danger" scope="row" style="white-space:nowrap">Lab 24: </td>
-                        <td><strong>To be defined.</strong></td>
-                    </tr>
-                    <tr>
-                        <td scope="row" style="white-space:nowrap">Lecture 25: </td>
-                        <td><strong>To be defined.</strong>
-                            <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lect23-learn"> <span class="fa fa-certificate"></span></button>
-                            <div id="lect23-learn" class="collapse epl425-learnout"> <strong>Learning outcomes:</strong> Learn how Java supports Collections, Maps and Iterators.</div>
-                            <div id="lect23-read" class="collapse"> <strong>Readings and References:</strong> Chapter 16. <i>Absolute Java</i> Walter Savitch. </div>
-                        </td>
-                    </tr>
-                    <tr class="epl425-quiz">
-                        <td scope="row" colspan="2"><strong>End of class.</strong></td>
-                    </tr>
+        <div id="lect19-read" class="collapse">
+          <strong>Readings:</strong> Chapter 9. <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- PRECEPT 10 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 10-dl: 17/3</td>
+      <td><strong>Programming Exceptions</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#prec10-learn">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#prec10-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7uoyr5oplc3c0" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <div id="prec10-learn" class="collapse epl425-learnout"><strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand and apply Programming Techniques for Exception Handling.</li>
+            <li>Understand the concept of Event-driven Programming.</li>
+          </ul>
+        </div>
+        <div id="prec10-read" class="collapse"><strong>Readings:</strong> Chapter 9.2, 9.3 <i>Absolute
+          Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 18 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 18-dl: 17/3</td>
+      <td><strong>Exceptions in Java. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab18-learn"><span class="fa fa-certificate"></span>Learning objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7vlr3pum7j5hu" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab18-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Using exceptions, make your own exception classes.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 20>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 20-dl: 20/3</td>
+      <td><strong>File I/O.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect20-learn">
+          <span class="fa fa-certificate"></span> Learning objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect20-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k7yx6rsfvpe1nh" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span id="lect20-learn" class="collapse epl425-learnout">
+              <strong>Learning outcome:</strong>
+              <ul>
+                <li>Understand and apply basic concepts of file systems and I/O.</li>
+                <li>Become familiar with and be able to apply File I/O Techniques in Java.</li>
+                <li>Understand and apply the concepts of streams, text and binary files and I/O.</li>
+              </ul>
+            </span>
+        <div id="lect20-read" class="collapse">
+          <strong>Readings:</strong> Chapter 10.1, 10.2 <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 19 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 19-dl: 20/3</td>
+      <td><strong>Exercises on File I/O. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab19-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab19-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Using streams in Java. Byte Streams, Character Streams.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 21>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 21-dl and Precept 11: 24/3</td>
+      <td><strong>Java I/O Libraries.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect21-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect21-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k83nk96j29o2ml" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span id="lect21-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Understand, Explain and Apply:
+            <ul>
+              <li>Text and Binary Files to store and process data.</li>
+              <li>Basic Input-Output Classes of Java: Scanner, Bufferred Reader.</li>
+              </ul>
+        </span>
+        <div id="lect21-read" class="collapse">
+          <strong>Readings:</strong> Chapter 10.2, 10.3, 10.4, 10.5<i> Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 20 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 20-dl: 24/3</td>
+      <td><strong>Exercises on File I/O. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab20-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab20-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Using streams in Java. Byte Streams, Character Streams.
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 22>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 22-dl: 27/3</td>
+      <td><strong>File I/O.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect22-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect22-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k87vt609iyfnz" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <span id="lect22-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Understand, Explain and Apply:
+            <ul>
+              <li>The File Class.</li>
+              <li>Binary Files.</li>
+              <li>Random-Access Files.</li>
+            </ul>
+        </span>
+        <div id="lect22-read" class="collapse">
+          <strong>Readings:</strong> Chapter 10.2, 10.3, 10.4, 10.5<i> Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 21 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 21-dl: 27/3</td>
+      <td><strong>Exercises on Binary files. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab21-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab21-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Using streams in Java. Byte Streams, Character Streams.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- MODULE 8 -->
+    <tr class="warning">
+      <th class="lead" colspan="2">Module 8: Inner Classes, Generics and Collections (Εσωτερικές Κλάσεις,
+        Γενόσημοι Τύποι, Κιβώτια και Συλλογές).
+      </th>
+    </tr>
+
+    <!- LECTURE 23>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 23-dl: 31/3</td>
+      <td><strong>Elements of Inner Classes.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect23-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect23-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8f2upswhw931m" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://youtu.be/m8l3ebL8jHU" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect23-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand and explain the concept and syntax of inner classes.</li>
+            <li>Understand, explain, and apply inner class uses.</li>
+            <li>Understand, explain, and apply static inner classes and their use.</li>
+            <li>Review simple examples of inner-class use.</li>
+            <li>Understand, explain and apply the concept of local inner classes.</li>
+          </ul>
+        </span>
+        <div id="lect23-read" class="collapse">
+          <strong>Readings:</strong> Chapter 13.2, 13.3 <i>Absolute Java</i> Walter Savitch.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 22 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 22-dl: 31/3</td>
+      <td><strong>Exercises on Inner classes.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab22-learn"><span class="fa fa-certificate"></span>Learning objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/jqntyc7qdj77hk/judr934u3oen6" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab22-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li> Using inner classes in Java.</li>
+            <li> Using local inner classes in Java.</li>
+            <li> Using anonymous classes in Java.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 24>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 24-dl: 3/4</td>
+      <td><strong>Anonymous Inner Classes.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect24-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect24-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8knasp2i0445p" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://youtu.be/AtQLwHeREd8" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect24-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li>Understand the interplay between inheritance and inner classes.</li>
+            <li>Understand, explain and apply the concept of local inner classes.</li>
+            <li>Understand, explain and apply the concept of anonymous inner classes.</li>
+          </ul>
+        </span>
+        <div id="lect24-read" class="collapse">
+          <strong>Readings:</strong> Chapter 13.3 <i>Absolute Java</i> Walter Savitch, and
+          class-notes.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 23 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 23-dl: 3/4</td>
+      <td><strong>SOLID design principles. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab23-learn"><span class="fa fa-certificate"></span>Learning objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="http://www.piazza.com/class_profile/get_resource/jqntyc7qdj77hk/ju3orsd5rp52l" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab23-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong>
+          <ul>
+            <li> The Liskov Substitution Principle.</li>
+            <li> The Interface Segregation Principle.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 25>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 25-dl & Precept: 7/4</td>
+      <td><strong>Closures, Callbacks and Application Frameworks.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect25-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect25-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="" target="_new" type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://youtu.be/g_xVNwzfUsE" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect25-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand and apply inner classes in the Factory Method software pattern.</li>
+            <li>Understand the concept of closure and callbacks.</li>
+            <li>Understand, explain and use inner classes to implement callbacks in Java.</li>
+            <li>Understand, explain and apply inner classes to develop application frameworks
+            with event-driven programming.</li>
+            <li>Understand, explain and apply the concept of Containers and the ArrayList package.</li>
+          </ul>
+        </span>
+        <div id="lect25-read" class="collapse">
+          <strong>Readings:</strong> Chapter 13.3 <i>Absolute Java</i> Walter Savitch, and
+          class-notes.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 24 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 24-dl: 6/4</td>
+      <td><strong>Git. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab24-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab24-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> How to use git and github.
+          <ul>
+            <li> Creating git repos in github.</li>
+            <li> Adding collaborators.</li>
+            <li> Using git commands.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 26>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 26-dl: 10/4</td>
+      <td><strong>Generics.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect26-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect26-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8t2odg6s1t2tk" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://youtu.be/-Wrbf5u7Sag" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect26-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Review, understand and apply the capabilities of the ArrayList class.</li>
+            <li>Understand and explain the concept of class parameters, generic classes, their use
+            and implementation.</li>
+            <li>Understand and explain the terminology and the concepts of generics and their
+              advantages.</li>
+            </ul>
+        </span>
+        <div id="lect26-read" class="collapse">
+          <strong>Readings:</strong> Chapter 14 <i>Absolute Java</i> Walter Savitch, and class-notes.
+        </div>
+      </td>
+    </tr>
+
+
+    <!- LAB 25 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 25-dl: 10/4</td>
+      <td><strong>Exercises on Generics. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab25-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8tskj5podf4uy
+" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab25-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Implement generic classes in Java.
+
+        </div>
+      </td>
+    </tr>
+
+    <!- LECTURE 27>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 27-dl & Precept: 14/4</td>
+      <td><strong>Generics.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect27-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect27-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8z0mubrg53442" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="https://youtu.be/xnnnxKNl1Ak" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect27-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Work on simple examples using Generics.</li>
+            <li>Explore, understand, and explain various pitfalls regarding Generics.</li>
+            <li>Understand and explain the relation between Generics and Inheritance.</li>
+            <li>Understand and explain the implementation of Generics through type erasure.</li>
+            <li>Understand, explain and apply the concept of Generic Methods.</li>
+            </ul>
+        </span>
+        <div id="lect27-read" class="collapse">
+          <strong>Readings:</strong> Chapter 14 <i>Absolute Java</i> Walter Savitch, and class-notes.
+        </div>
+      </td>
+    </tr>
+
+      <!- Quiz 2 ->
+      <tr>
+        <td class="danger" scope="row" style="white-space:nowrap">Quiz 2: 14/4</td>
+        <td><strong>Quiz 2.</strong>
+        </td>
+      </tr>
+
+      <!- LAB 26 ->
+      <tr>
+        <td class="danger" scope="row" style="white-space:nowrap">Lab 26-dl: 24/4</td>
+        <td><strong>Exercises on Generics -continued. </strong>
+          <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                  data-target="#lab26-learn"><span class="fa fa-certificate"></span>Learning Objectives
+          </button>
+          <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k8tskj5podf4uy
+  " target="_new">
+            <span class="fi-clipboard-pencil"></span>Notes
+          </a>
+          <div id="lab26-learn" class="collapse epl425-learnout">
+            <strong>Learning outcome:</strong> Implement generic classes in Java.
+          </div>
+        </td>
+      </tr>
+
+    <tr>
+      <td bgcolor="#db7093" scope="row">Mock distance exam 1: 28/4</td>
+      <td bgcolor="#db7093"><strong>Use of blackboard for remote synchronous examination.</strong>
+      </td>
+    </tr>
+
+    <!- LECTURE 28>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 28-dl: 28/4</td>
+      <td><strong>Collections.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect28-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect28-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k9iauqikse62p2" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect28-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Understand the concept of linked lists and apply it by implementing linked lists in Java.</li>
+            <li>Become familiar with the principles of Collection classes.</li>
+            </ul>
+        </span>
+        <div id="lect28-read" class="collapse">
+          <strong>Readings:</strong> Chapter 15.1, 15.3, 16 <i>Absolute Java</i> Walter Savitch, and class-notes.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 27 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 27-dl: 28/4</td>
+      <td><strong>Linked Data structures. </strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lab27-learn"><span class="fa fa-certificate"></span>Learning Objectives
+        </button>
+        <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k9jj7beuxazwb" target="_new">
+          <span class="fi-clipboard-pencil"></span>Notes
+        </a>
+        <div id="lab27-learn" class="collapse epl425-learnout">
+          <strong>Learning outcome:</strong> Exposure to Linked lists and link-list programming.
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td bgcolor="#db7093" scope="row">Mock distance exam 2: 5/5</td>
+      <td bgcolor="#db7093"><strong>Use of <a href="https://blackboard.ucy.ac.cy" target="_blank">Blackboard</a> and
+        <a href="https://safeexambrowser.org/news_en.html" target="_blank">Safe Exam Browser</a> for remote
+        synchronous examination and <a href="https://ucy.zoom.us/" target="_blank">Zoom</a> for remote proctoring.</strong>
+      </td>
+    </tr>
+
+    <!- LECTURE 29>
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 29-dl: 5/5</td>
+      <td><strong>Collections and Java8 Overview.</strong>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect29-learn">
+          <span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse"
+                data-target="#lect29-read">
+          <span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a href="" target="_new"
+           type="button" class="btn btn-default btn-xs hidden-print">
+          <span class="fi-clipboard-pencil"></span> Notes
+        </a>
+        <a class="btn btn-default btn-xs hidden-print" href="" target="_new"
+           type="button">
+          <span class="fi-social-youtube"> Video</span>
+        </a>
+        <span id="lect29-learn" class="collapse epl425-learnout">
+          <strong>Learning Objectives:</strong>
+          <ul>
+            <li>Become familiar with the principles of Collection classes and be able to apply Collections
+            and Maps for solving computational problems: Collections, Maps, Iterators.</li>
+            <li>Understand the concept of Iterators and apply it in Java programs.</li>
+            <li>Review the new concepts in Java 8.</li>
+            </ul>
+        </span>
+        <div id="lect29-read" class="collapse">
+          <strong>Readings:</strong> Chapter 16 <i>Absolute Java</i> Walter Savitch, and class-notes.
+        </div>
+      </td>
+    </tr>
+
+    <!- LAB 28 ->
+    <tr>
+      <td class="danger" scope="row" style="white-space:nowrap">Lab 28-dl: 5/5</td>
+      <td><strong>Exercises on Collections. </strong>
+          <button type="button" class="btn btn-default btn-xs hidden-print" data-toggle="collapse" data-target="#lab28-learn">
+            <span class="fa fa-certificate"></span> Learning Objectives
+          </button>
+          <a class="btn btn-default btn-xs hidden-print" href="http://www.piazza.com/class_profile/get_resource/k4iq8bpe35k2nj/k9tj812ryqo6fp" target="_new">
+              <span class="fi-clipboard-pencil"></span> Notes
+          </a>
+          <div id="lab28-learn" class="collapse epl425-learnout">
+              <strong>Learning outcome:</strong>  Using collections in Java.
+              <ul>
+                  <li> Using HashMaps.</li>
+                  <li> Using HashSets.</li>
+              </ul>
+          </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <footer class="hidden-print">
+    <hr/>
+    <p class="text-center">[<a href="index.html">EPL133</a>]</p>
+    <small>Marios Dikaiakos, &copy; 2017-2021</small>
+  </footer>
+</div>
+</body>
+
+</html>
