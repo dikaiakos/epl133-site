@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="First draft for Spring 2020">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/contract.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-scratch.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule-scratch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -117,6 +120,7 @@
       <workItem from="1589438411157" duration="121000" />
       <workItem from="1610370148023" duration="6035000" />
       <workItem from="1610378430979" duration="594000" />
+      <workItem from="1610459727316" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="First draft for Spring 2020">
       <created>1610370616592</created>
@@ -132,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610378344595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First draft for Spring 2020">
+      <created>1610446727826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610446727826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,27 +152,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First draft for Spring 2020" />
     <option name="LAST_COMMIT_MESSAGE" value="First draft for Spring 2020" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="529" y="265" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610370634153">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="529" y="265" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610370634153" />
-    <state x="435" y="97" key="CommitChangelistDialog2" timestamp="1610378344415">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="435" y="97" key="CommitChangelistDialog2/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610378344415" />
-    <state x="441" y="262" key="Vcs.Push.Dialog.v2" timestamp="1610378353501">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="441" y="262" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610378353501" />
-    <state x="729" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610017513279">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="729" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610017513279" />
-    <state x="621" y="251" width="602" height="548" key="find.popup" timestamp="1610018129916">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="621" y="251" width="602" height="548" key="find.popup/0.25.1920.1055/1920.25.1680.1025@0.25.1920.1055" timestamp="1610018129916" />
   </component>
 </project>
