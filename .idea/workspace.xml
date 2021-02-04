@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Updates on Spring 2020">
+    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Updates on Spring 2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
@@ -205,18 +205,43 @@
       <option name="project" value="LOCAL" />
       <updated>1611698560904</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updates on Spring 2021">
+      <created>1612388999563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612388999563</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update readings">
+      <created>1612475945887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612475945887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First draft for Spring 2020" />
     <MESSAGE value="Updates on Spring 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates on Spring 2020" />
+    <MESSAGE value="Updates on Spring 2021" />
+    <MESSAGE value="Update readings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readings" />
   </component>
 </project>
