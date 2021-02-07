@@ -35,6 +35,13 @@
       });*/
     });
 
+
+
+
+
+
+
+
   </script>
 
   <style>
@@ -58,6 +65,13 @@
     .btn-success:hover {
       background-color: #449d44;
     }
+
+
+
+
+
+
+
 
   </style>
 
@@ -587,18 +601,19 @@
         <a class="btn btn-default btn-xs hidden-print"
            href="https://moodle.cs.ucy.ac.cy/pluginfile.php?file=%2F28679%2Fmod_resource%2Fcontent%2F1%2Fslides6.pdf"
            target="_new" type="button"><span class="fi-clipboard-pencil"></span> Notes</a>
-        <a class="btn btn-default btn-xs hidden-print" href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=774ad6cc-f130-46d8-864b-acc200a883df"
-                 target="_new"
-                 type="button">
+        <a class="btn btn-default btn-xs hidden-print"
+           href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=774ad6cc-f130-46d8-864b-acc200a883df"
+           target="_new"
+           type="button">
           <span class="fi-video"> Video: OOP Abstractions in Java</span>
         </a>
-          <a class="btn btn-default btn-xs hidden-print"
-             href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=758b8236-59a9-4928-878c-acc200f3ce27"
-             target="_new"
-             type="button">
-            <span class="fi-video"> Video: Initializers and Constructors</span>
-          </a>
-            <span class="collapse epl425-learnout" id="lect6-learn"><strong>Learning Objectives:</strong>
+        <a class="btn btn-default btn-xs hidden-print"
+           href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=758b8236-59a9-4928-878c-acc200f3ce27"
+           target="_new"
+           type="button">
+          <span class="fi-video"> Video: Initializers and Constructors</span>
+        </a>
+        <span class="collapse epl425-learnout" id="lect6-learn"><strong>Learning Objectives:</strong>
           <ul>
             <li>Understand the concepts of information hiding and encapsulation in Java.</li>
             <li>Private and public class members.</li>
@@ -607,14 +622,14 @@
             <li>Method and constructor overloading.</li>
           </ul>
         </span>
-            <div class="collapse" id="lect6-read"><strong>Readings:</strong>
-              <ul>
-                <li>Chapter 4.2, 4.3, 4.4. <i>"Absolute Java"</i>, Walter Savitch.</li>
-                <li>Review of recursion. Chapter 11. <i>"Absolute Java"</i>,
-                  Walter Savitch.
-                </li>
-              </ul>
-            </div>
+        <div class="collapse" id="lect6-read"><strong>Readings:</strong>
+          <ul>
+            <li>Chapter 4.2, 4.3, 4.4. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li>Review of recursion. Chapter 11. <i>"Absolute Java"</i>,
+              Walter Savitch.
+            </li>
+          </ul>
+        </div>
       </td>
     </tr>
 
@@ -647,7 +662,7 @@
 
     <tr>
       <td scope="row" style="white-space:nowrap">Lecture 7: 9/2</td>
-      <td><strong>Memory Management.</strong>
+      <td><strong>Memory Management in Java.</strong>
         <button class="btn btn-default btn-xs hidden-print" data-target="#lect7-learn" data-toggle="collapse"
                 type="button">
           <span class="fa fa-certificate"></span> Learning Objectives
@@ -657,14 +672,15 @@
           <span class="glyphicon glyphicon-book"></span> Readings
         </button>
         <a class="btn btn-default btn-xs hidden-print"
-           href="https://moodle.cs.ucy.ac.cy/pluginfile.php?file=%2F28716%2Fmod_resource%2Fcontent%2F1%2Fslides7.pdf" target="_new" type="button">
+           href="https://moodle.cs.ucy.ac.cy/pluginfile.php?file=%2F28716%2Fmod_resource%2Fcontent%2F1%2Fslides7.pdf"
+           target="_new" type="button">
           <span class="fi-clipboard-pencil"></span> Notes
         </a>
         <a class="btn btn-default btn-xs hidden-print"
            href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2ecc58b9-ac29-40d9-bfc5-acc400ce2421"
            target="_new"
            type="button">
-          <span class="fi-video"> Video: Memory Management Intro</span>
+          <span class="fi-video"> Video: Memory Management Introduction</span>
         </a>
         <a class="btn btn-default btn-xs hidden-print"
            href="https://ucy.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64de464d-6c17-4767-b683-acc800a5e1ed"
@@ -681,7 +697,10 @@
             <li>Memory allocation.</li>
             <li>The organization of virtual memory, the concepts of stack, heap and static memory.
             </li>
-          </ul>
+            <li>Memory management in Java.</li>
+            <li>Activation records (stack frames) and their role in maintaining method invocation semantics.</li>
+            <li>Heap-space allocation for storing Java objects.</li>
+            <li>Review of memory management in the presence of method calls: stack, stack-frames (activation records), heap.</li>
         </span>
         <div class="collapse" id="lect7-read">
           <strong>Readings:</strong>
@@ -691,7 +710,9 @@
                    target="_blank">Memory Management in the Java HotSpotTM Virtual Machine.</a>
               Sun Microsystems, 2006.
             </li>
-            <li><a href="https://www.journaldev.com/4098/java-heap-space-vs-stack-memory" target="_blank">Java Heap Space vs Stack – Memory Allocation in Java</a>.</li>
+            <li><a href="https://www.journaldev.com/4098/java-heap-space-vs-stack-memory" target="_blank">Java Heap
+              Space vs Stack – Memory Allocation in Java</a>.
+            </li>
             <li><a href="http://www.javaworld.com/article/2075904/core-java/core-java-trash-talk-part-1.html"
                    target="_blank">Java 101: Trash talk</a>. A tutorial by Jeff Friesen.
             </li>
@@ -699,6 +720,71 @@
         </div>
       </td>
     </tr>
+
+    <!- PRECEPT 4 ->
+    <tr>
+      <td class="active" scope="row" style="white-space:nowrap">Precept 4: 10/2</td>
+      <td><strong>Object-oriented Design: Introduction</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#prec4-read" data-toggle="collapse"
+                type="button">
+          <span class="fa fa-certificate"></span> Readings
+        </button>
+        <div class="collapse epl425-learnout" id="prec4-learn"><strong>Learning Objectives:</strong>
+          <ul>
+            <li>Review key elements of the object-oriented design.</li>
+            <li>Become familiar and put to practice the O.O. design methodology.</li>
+            <li>Use the Class-Responsibility-Collaborators (CRC) cards to design your classes.</li>
+          </ul>
+        </div>
+        <div class="collapse" id="prec4-read">
+          <strong>Readings:</strong>
+          <ul>
+            <li>Chapter 12. Absolute Java. Walter Savitch.</li>
+            <li>Chapter 2. Object-Oriented Design and Patterns. Cay Horstmann, Wiley, 2006.</li>
+          </ul>
+        </div>
+
+      </td>
+    </tr>
+
+
+    <!- LECTURE 8 -->
+    <tr>
+      <td scope="row" style="white-space:nowrap">Lecture 8: 12/2</td>
+      <td><strong>Static variables and methods. Garbage collection.</strong>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-learn" data-toggle="collapse"
+                type="button"><span class="fa fa-certificate"></span> Learning Objectives
+        </button>
+        <button class="btn btn-default btn-xs hidden-print" data-target="#lect8-read" data-toggle="collapse"
+                type="button"><span class="glyphicon glyphicon-book"></span> Readings
+        </button>
+        <a class="btn btn-default btn-xs hidden-print"
+           href=""
+           target="_new" type="button"><span class="fi-clipboard-pencil"></span> Notes</a>
+        <span class="collapse epl425-learnout" id="lect8-learn"><strong>Learning Objectives:</strong>
+          Be able to understand, explain and use the concepts of:
+          <ul>
+            <li>Static memory, static variables (class variables) and static methods (class methods).</li>
+            <li>Review of memory management in the presence of method calls: stack, stack-frames (activation records), heap.</li>
+            <li>Review examples of static variables and methods and be able to explain and implement the concept.</li>
+            <li>Review what happens during object construction and initialization.</li>
+            <li>Understand the concept of garbage collection. Garbage collection in Java
+                  and related methods. Algorithms for garbage collection.</li>
+          </ul>
+        </span>
+        <div class="collapse" id="lect8-read"><strong>Readings:</strong>
+          <ul>
+            <li>Chapter 5. <i>"Absolute Java"</i>, Walter Savitch.</li>
+            <li>Review recursion and stacks for recursion. Chapter 11. <i>"Absolute Java"</i>, Walter Savitch.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+
     <!- MODULE 3-->
     <tr class="warning">
       <th class="lead" colspan="2">Module 3: Inheritance (Κληρονομικότητα).</th>
