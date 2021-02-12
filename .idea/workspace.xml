@@ -128,6 +128,8 @@
       <workItem from="1610620672905" duration="1173000" />
       <workItem from="1611318597566" duration="521000" />
       <workItem from="1611573596764" duration="750000" />
+      <workItem from="1612799301160" duration="5000" />
+      <workItem from="1613122851527" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="First draft for Spring 2020">
       <created>1610370616592</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612475945887</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updates on Spring 2021">
+      <created>1612798810196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612798810196</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,8 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First draft for Spring 2020" />
     <MESSAGE value="Updates on Spring 2020" />
-    <MESSAGE value="Updates on Spring 2021" />
     <MESSAGE value="Update readings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readings" />
+    <MESSAGE value="Updates on Spring 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates on Spring 2021" />
   </component>
 </project>
