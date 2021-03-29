@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Updates precept 9">
+    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Update precept 8 notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
@@ -274,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616515502769</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update precept 8 notes">
+      <created>1616533738702</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616533738702</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Lecture 19">
+      <created>1616535428974</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616535428974</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +318,8 @@
     <MESSAGE value="Updates precept 6 lecture 13" />
     <MESSAGE value="Updates precept 8 lecture 16" />
     <MESSAGE value="Updates precept 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates precept 9" />
+    <MESSAGE value="Update precept 8 notes" />
+    <MESSAGE value="Lecture 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 19" />
   </component>
 </project>
