@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Update precept 11 and lecture 22">
+    <list default="true" id="9db8dbba-0ffe-42ea-a083-8d4f688a4355" name="Default" comment="Exceptions and FIle I/O">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
@@ -303,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617787209651</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exceptions and FIle I/O">
+      <created>1617911180221</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617911180221</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +344,7 @@
     <MESSAGE value="Lecture 19" />
     <MESSAGE value="Update precept 10 and lecture 20" />
     <MESSAGE value="Update precept 11 and lecture 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update precept 11 and lecture 22" />
+    <MESSAGE value="Exceptions and FIle I/O" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions and FIle I/O" />
   </component>
 </project>
